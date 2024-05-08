@@ -15,6 +15,12 @@ interface ProdukDao {
     @Update
     suspend fun update(produk: Produk)
 
-    @Query("SELECT * FROM produk")
+    @Query("SELECT * FROM produk ORDER BY nama")
     fun getProduk(): Flow<List<Produk>>
+
+    @Query("SELECT * FROM produk WHERE id = :id")
+    suspend fun getProdukById(id: Long): Produk?
+
+    @Query("DELETE FROM produk WHERE id = :id")
+    suspend fun deleteById(id: Long)
 }

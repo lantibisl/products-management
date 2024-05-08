@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Products Management</string>
+    <string name="list_kosong">Data Tidak Ditemukan</string>
+    <string name="pesan_hapus">Hapus produk?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+    <string name="tambah">Tambah</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="hapus">Hapus</string>
+    <string name="invalid_input">Masukan tidak boleh kosong</string>
+    <string name="nama_produk">Nama</string>
+    <string name="stok">Stok</string>">
+    <string name="kembali">Kembali</string>">
+    <string name="edit">Edit</string>
+    <string name="invalid">Nama, kategori, dan stok tidak boleh kosong.</string>
+    <string name="simpan">Simpan</string>
+    <string name="kosong">Kosong</string>">
 </resources>
