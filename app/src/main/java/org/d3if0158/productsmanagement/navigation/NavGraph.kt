@@ -11,7 +11,7 @@ import org.d3if0158.productsmanagement.screen.MainScreen
 fun SetupNavGraph(navController: NavHostController = rememberNavController()) {
     NavHost(navController = navController, startDestination = Screen.Home.route) {
         composable(route = Screen.Home.route) {
-            MainScreen()
+            MainScreen(navController)
         }
     }
 }
